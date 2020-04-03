@@ -1,0 +1,70 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.creativeartapp.servidordashboard"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\Documentos\Documentos\Estagio\servidor_dashboard\android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\Documentos\Documentos\Estagio\servidor_dashboard\android\app\src\main\AndroidManifest.xml
+10    <!--
+11         io.flutter.app.FlutterApplication is an android.app.Application that
+12         calls FlutterMain.startInitialization(this); in its onCreate method.
+13         In most cases you can leave this as-is, but you if you want to provide
+14         additional functionality it is fine to subclass or reimplement
+15         FlutterApplication and put your custom class here.
+16    -->
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->D:\Documentos\Documentos\Estagio\servidor_dashboard\android\app\src\main\AndroidManifest.xml:8:5-67
+17-->D:\Documentos\Documentos\Estagio\servidor_dashboard\android\app\src\main\AndroidManifest.xml:8:22-64
+18
+19    <application
+19-->D:\Documentos\Documentos\Estagio\servidor_dashboard\android\app\src\main\AndroidManifest.xml:9:5-30:19
+20        android:name="io.flutter.app.FlutterApplication"
+20-->D:\Documentos\Documentos\Estagio\servidor_dashboard\android\app\src\main\AndroidManifest.xml:10:9-57
+21        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+21-->[com.android.support:support-compat:28.0.0] C:\Users\tec_v\.gradle\caches\transforms-2\files-2.1\eac699f134901d0d2fa5c1a81ade99d0\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+22        android:icon="@mipmap/ic_launcher"
+22-->D:\Documentos\Documentos\Estagio\servidor_dashboard\android\app\src\main\AndroidManifest.xml:12:9-43
+23        android:label="servidordashboard" >
+23-->D:\Documentos\Documentos\Estagio\servidor_dashboard\android\app\src\main\AndroidManifest.xml:11:9-42
+24        <activity
+24-->D:\Documentos\Documentos\Estagio\servidor_dashboard\android\app\src\main\AndroidManifest.xml:13:9-24:20
+25            android:name="com.creativeartapp.servidordashboard.MainActivity"
+25-->D:\Documentos\Documentos\Estagio\servidor_dashboard\android\app\src\main\AndroidManifest.xml:14:13-41
+26            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+26-->D:\Documentos\Documentos\Estagio\servidor_dashboard\android\app\src\main\AndroidManifest.xml:17:13-163
+27            android:hardwareAccelerated="true"
+27-->D:\Documentos\Documentos\Estagio\servidor_dashboard\android\app\src\main\AndroidManifest.xml:18:13-47
+28            android:launchMode="singleTop"
+28-->D:\Documentos\Documentos\Estagio\servidor_dashboard\android\app\src\main\AndroidManifest.xml:15:13-43
+29            android:theme="@style/LaunchTheme"
+29-->D:\Documentos\Documentos\Estagio\servidor_dashboard\android\app\src\main\AndroidManifest.xml:16:13-47
+30            android:windowSoftInputMode="adjustResize" >
+30-->D:\Documentos\Documentos\Estagio\servidor_dashboard\android\app\src\main\AndroidManifest.xml:19:13-55
+31            <intent-filter>
+31-->D:\Documentos\Documentos\Estagio\servidor_dashboard\android\app\src\main\AndroidManifest.xml:20:13-23:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->D:\Documentos\Documentos\Estagio\servidor_dashboard\android\app\src\main\AndroidManifest.xml:21:17-68
+32-->D:\Documentos\Documentos\Estagio\servidor_dashboard\android\app\src\main\AndroidManifest.xml:21:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->D:\Documentos\Documentos\Estagio\servidor_dashboard\android\app\src\main\AndroidManifest.xml:22:17-76
+34-->D:\Documentos\Documentos\Estagio\servidor_dashboard\android\app\src\main\AndroidManifest.xml:22:27-74
+35            </intent-filter>
+36        </activity>
+37        <!--
+38             Don't delete the meta-data below.
+39             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+40        -->
+41        <meta-data
+41-->D:\Documentos\Documentos\Estagio\servidor_dashboard\android\app\src\main\AndroidManifest.xml:27:9-29:33
+42            android:name="flutterEmbedding"
+42-->D:\Documentos\Documentos\Estagio\servidor_dashboard\android\app\src\main\AndroidManifest.xml:28:13-44
+43            android:value="2" />
+43-->D:\Documentos\Documentos\Estagio\servidor_dashboard\android\app\src\main\AndroidManifest.xml:29:13-30
+44    </application>
+45
+46</manifest>
