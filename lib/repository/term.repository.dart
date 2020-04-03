@@ -28,7 +28,7 @@ class TermRepository {
       var tokenHeader = await autorizationToken();
 
       // Faz a requisição enviando o token de autorização
-      var request = await Dio(WebClient.authBaseOptions).get(
+      var request = await Dio(WebClient.generalBaseOptions).get(
           WebClient.termEndPoint,
           options: Options(headers: tokenHeader)
       );

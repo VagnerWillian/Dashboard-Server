@@ -4,7 +4,7 @@ import 'package:servidordashboard/constraints.dart';
 class WebClient{
 
   // Dio Options
-  static BaseOptions authBaseOptions = BaseOptions(
+  static BaseOptions generalBaseOptions = BaseOptions(
     baseUrl: BASEURL,
     connectTimeout: 60000
   );

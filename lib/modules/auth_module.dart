@@ -49,7 +49,7 @@ class Auth {
   // Solicita um token
   Future<String> _requestAsToken({@required String user, @required String pass}) async {
     try {
-      var request = await Dio(WebClient.authBaseOptions).post(
+      var request = await Dio(WebClient.generalBaseOptions).post(
           WebClient.loginEndPoint,
           data: await autorizationMap(user, pass)
       );
